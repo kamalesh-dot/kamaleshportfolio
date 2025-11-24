@@ -220,7 +220,7 @@ nav {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    background-image: url("C:\\Users\\D E L L\\Downloads\\WhatsApp Image 2025-11-24 at 6.46.00 AM.jpeg");
+    background-image: url("profile.jpeg");
     background-size: cover;
     background-position: center;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
@@ -1154,4 +1154,5 @@ footer {
 .profile-image {
     animation: floating-island 8s ease-in-out infinite;
     filter: drop-shadow(0 15px 30px rgba(255, 78, 69, 0.4));
+
 }
