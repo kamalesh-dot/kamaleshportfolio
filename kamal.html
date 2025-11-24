@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamalesh S - UI Designer & Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">HELLO</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>I'm <span>KAMALESH S</span></h1>
+                <p>UI Designer & Web Developer</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Contact Me</a>
+                    <a href="#projects" class="btn btn-outline">View My Work</a>
+                </div>
+            </div>
+            <div class="floating-elements">
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content fade-in delay-1">
+                <div class="about-image">
+                    <div class="about-img"></div>
+                </div>
+ <div class="about-text">
+    <p>I'm a passionate UI/UX Designer and Frontend Developer with expertise in creating intuitive, user-centered digital experiences. With a background in both design and development, I bridge the gap between aesthetics and functionality to deliver seamless, engaging interfaces.</p>
+    
+    <p>My journey in UI/UX design started 1 year ago, and since then I've worked on various projects ranging from mobile applications to complex web platforms. I specialize in translating complex user needs into clean, accessible designs while ensuring pixel-perfect implementation through code.</p>
+    
+    <p>When I'm not designing interfaces or writing code, you can find me exploring the latest design trends, conducting user research, or prototyping new interactions that enhance user engagement and satisfaction.</p>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in delay-1">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>AWS CLOUD</h3>
+                    <p>EC2,S3,VPC</p>
+                </div>
+                <div class="skill-card fade-in delay-2">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Canva</p>
+                </div>
+                <div class="skill-card fade-in delay-3">
+                    <i class="fab fa-js"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card fade-in delay-1">
+                    <i class="fab fa-react"></i>
+                    <h3>Python</h3>
+                    <p>Developer</p>
+                </div>
+                <div class="skill-card fade-in delay-2">
+                    <i class="fab fa-node-js"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card fade-in delay-3">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL Database Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in delay-1">
+                    <div class="project-img project-1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="http://movie-maxi.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/kamalesh-dot/movie-recommendation"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>MOVIE RECOMMENDATION SYSTEM</h3>
+                        <p>A movie recommendation system that suggests films based on what you already like. It looks at movie details like genre, director, actors and story to find similar movies.</p>
+                        <div class="project-tags">
+                            <span class="tag">Social Media</span>
+                            <span class="tag">Web</span>
+                            <span class="tag">Entertainment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-content fade-in delay-1">
+                <p>Have a marketing campaign or web project in mind? Let's discuss how we can work together!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group full">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group full">
+                        <textarea class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="form-group full">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Kamalesh S</h3>
+                    <p>UI designer & Web Developer passionate about creating digital experiences that drive results.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/kamalesh-selvam/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/kamalesh-dot"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i>kamaleshselvam08@gmail.com</li>
+                        <li><i class="fas fa-phone"></i>9025401035</li>
+                        <li><i class="fas fa-map-marker-alt"></i>Trichy,Tamilnadu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Kamalesh S. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
